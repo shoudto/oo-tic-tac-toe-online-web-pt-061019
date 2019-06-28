@@ -1,5 +1,3 @@
-require 'pry'
-
 class TicTacToe 
   
   attr_accessor :board, :token
@@ -72,6 +70,7 @@ class TicTacToe
     else
       false
     end
+    binding.pry 
   end
 
   def full?
