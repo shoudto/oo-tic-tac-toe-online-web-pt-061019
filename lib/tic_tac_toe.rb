@@ -68,7 +68,6 @@ class TicTacToe
   def won?
     if WIN_COMBINATIONS.any? { |i, j, k| board[i] == board[j] && board[i] == board[k] && board[i] != " " && board[i] != " " && board[i] != " " }
       WIN_COMBINATIONS.find { |i, j, k| board[i] == board[j] && board[i] == board[k] }
-      binding.pry
     else
       false
     end
