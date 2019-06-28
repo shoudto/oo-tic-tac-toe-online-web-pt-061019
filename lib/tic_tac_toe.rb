@@ -71,7 +71,7 @@ class TicTacToe
     else
       false
     end
-    binding.pry 
+    
   end
 
   def full?
